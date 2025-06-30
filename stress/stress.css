@@ -1,0 +1,75 @@
+
+#myVideo{
+    position:fixed;
+    top:0;
+    right:0;
+    min-height: 100%;
+    min-width: 100%;
+    z-index:-10;
+}
+
+.container{
+    display: flex; 
+        
+}
+
+.quotation{
+    font-size:20px;
+    background:  #FFB07F;
+    border-radius:30px;
+    padding:20px;
+    font-family: 'Satisfy', cursive;
+    margin-top:400px; 
+}
+
+.containerTime{
+    display: flex;
+    justify-content:center;
+}
+
+.timerNew{
+    font-size:20px;
+    background:  #FFB07F;
+    border-radius:30px;
+    padding:20px;
+    font-family: 'Satisfy', cursive;
+    
+}
+
+
+@media (max-width: 768px) {
+  .quotation {
+    font-size: 18px;
+    margin-top: 250px;
+    padding: 16px;
+  }
+
+  .timerNew {
+    font-size: 18px;
+    padding: 16px;
+  }
+
+  .container,
+  .containerTime {
+    padding: 10px;
+  }
+}
+
+
+@media (max-width: 480px) {
+  .quotation {
+    font-size: 16px;
+    margin-top: 150px;
+    padding: 14px;
+  }
+
+  .timerNew {
+    font-size: 16px;
+    padding: 14px;
+  }
+
+
+  body {
+    background-color: #FFE7A0;
+  }
+}
