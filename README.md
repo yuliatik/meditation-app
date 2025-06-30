@@ -13,6 +13,8 @@ Meditation for a good mood
 ![Meditation App Screenshot](screenshot.jpeg)
 
 
+Please open the app here: https://time-to-relax.netlify.app/
+
 ...
 ## 🛠️ Technologies Used
 
